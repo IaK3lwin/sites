@@ -1,5 +1,27 @@
 @charset 'utf-8';
 
+:root {
+    --cor01: #070908;
+    --cor02: #322423;
+    --cor03: #6B4603;
+    --cor04: #AD8678;
+    --cor05: #C3C3C3;
+}
+
+* {
+    margin:  0px;
+    padding: 0px;
+}
+
 header {
-background-image: url("image/bored.jpeg");
+    background-image: url("../image/bored.png");
+    
+}
+
+nav {
+    background-color: var( --cor02);
+}
+
+nav > a {
+    padding: 10px;
 }
