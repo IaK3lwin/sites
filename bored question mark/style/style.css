@@ -6,6 +6,7 @@
     --cor03: #6B4603;
     --cor04: #AD8678;
     --cor05: #C3C3C3;
+    --corteste: #66473b;
 }
 
 * {
@@ -13,15 +14,49 @@
     padding: 0px;
 }
 
+body {
+    background-image: linear-gradient(to bottom, var(--cor02),  #1a1212);
+}
 header {
+    padding: 100px;
     background-image: url("../image/bored.png");
-    
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+header > h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
 }
 
 nav {
-    background-color: var( --cor02);
+    background-image: linear-gradient(to bottom, var( --cor03), transparent);
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+
 }
 
 nav > a {
-    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    background-image: linear-gradient(to bottom, var(--cor03), #472f02 95%, #1f1400);
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1f1400;
+    width: 98vw;
+    padding: 30px;
+    padding-bottom: 45px;
 }
